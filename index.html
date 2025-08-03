@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="Style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registation form</title>
+</head>
+<body>
+  <div class="registrationForm">
+  <form action="Web side.html" method="submit">
+    <p>Development By Pradip K. c.</p>
+    <legend>Registration Form</legend>
+    <label for="name">first Name:</label>
+    <input type="text" id="first_name" name="first_name" required placeholder="full name"><br><br>
+
+    <label for="Last name">Last Name:</label>
+    <input type="text" id="Last_Name" name="Last_Name" required placeholder="Last_Name"><br><br>
+    <label for="gender">Geder:</label>
+    Male:<input type="radio" id="male" name="gender" value="Male" required class="gender">
+    Female:<input type="radio" id="female" name="gender" value="Female" required  class="gender">
+    Other:<input type="radio" id="ther" name="gender" value="other" required  class="gender">
+    <br><br>
+<label for="checkbox">"Please choose a checkbox.":</label> <br>
+ <select required >
+    <option value="" disabled selected>Select your option</option>
+    <option> BIM Student</option>
+    <option> BBA Student</option>
+    <option> BHM Student</option>
+    <option> BBS Student</option>
+     <option>MBS</option>
+      <option>Other</option>
+    <option> +2 Science</option>
+    <option> +2 Management</option>
+    <option> Law</option><br>
+    <option>SMC Teacher</option>
+    <option> Out of Teacher</option>
+   
+  </select><br><br>
+  <br><br>
+
+   <button type="submit" id="submit">Register</button>
+  </form>
+  </div>
+</body>
+</html>

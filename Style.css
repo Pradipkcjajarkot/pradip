@@ -16,11 +16,27 @@
     position: relative;
     animation-iteration-count: infinite;
 }
-@keyframes example{
+#introduction{
+    color: red;
+    margin: 5px;
+}
+div h1{
+    text-align: center;
+}
+h1 i{
+    
+    text-align: center;
+    background-color:cornsilk;
+    display: block;
+    color: #ff0000;
+    font-family: monospace;
+}
+
+/*@keyframes example{
     0%{left: 0px; top: 0px;}
     50%{left: 600px; top: 0px;}
-    100%{top: 0px; left: 0px; animation-duration: 0.1s;}
- }
+    100%{top: 0px; left: 0px; animation-duration: 1s;}
+ }*/
 #facebookPage{
     float: right;
     color: #0000ff;
@@ -52,6 +68,7 @@ nav {
 nav a:hover{
     background-color: red;
     color: white;
+     padding:14px 17px; 
 }
  body{
    /* background-image: url(image/backgrount.png);*/
@@ -59,13 +76,32 @@ nav a:hover{
     background-size: cover;
 }
 .picture {
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
+    margin: 5rem;
+    
+
+    background-color: antiquewhite;
+    background-image: url(image/nirmala.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 10px solid black;
+    border-radius: 20px;
+    transition: 1s;
+    display: inline-block;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     
   
 }
+img h4{
+    margin: 0%;
 
- #nirmala/*nirmal shahi*/{
-    height:700px;
+}
+
+ #nirmala{
+    height:600px;
     width: 600px;
     transition-property: all;
     transition-duration:10s, 30s, 230ms;
@@ -78,11 +114,39 @@ nav a:hover{
 .Nil{
        height: 500px;
        width: 500px;
-       display: inline;
+       display: block;
+       padding: 50px;
+       display: cover;
+       background-color: aqua; 
+       
+
+}
+#display{
+    background-image: url(image/backgrount.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue; /* cyan / sky blue */
+  height: 100vh;
+  width: 100vw;
+}
+#topics{
+          background-color: maroon;
+          color: white;
+          font-family: monospace ;
+          display: inline;
+          padding: 7px;
+          margin-bottom: 20px;
 }
 .college {
-    height:500px;
-    width: 500px;
+    height:100px;
+    width: 100px;
 }
 #display{
    background-image:url(image/backgrount.png);
@@ -94,9 +158,11 @@ nav a:hover{
 #AboutPradip:hover p {
     display: block;
     display: inline;
-    background-color: red;
+    background-color:black;
     color: white;
+    border: 5px;
 }
+
 #web {
     color: red;
     font-family: monospace;
@@ -180,13 +246,310 @@ footer h3{
     background-color:#000000;
     border-radius: 40px;
     transform: rotate(360deg);
-}
-        
- 
- 
 
+}
+h4{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+}
+.head{
+    color:red;
+    font-family: monospace;
+    font-size: large;
+}
+h2 #topics{
+    color: white;
+    font-family: monospace ;
+    display: inline;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+ @media screen and (min-width: 320px) {
+            nav {
+                background-color: #333;
+                color: white;
+                font-size: small;
+                display: block;
+            }
+            nav a{
+                padding: 3px;
+                display: inline;
+                font-size: small;
+               
+            }
+            body{
+                margin: 0px;
+                padding: 0px;
+            }
+            .college{
+               height: 300px;
+               width: 300px;
+            }
+            #nirmala{
+                height: 300px;
+                width: 300px;
+                transition-property: all;
+            }
+            .picture{
+                height: 275px;
+               width: 275px;
+            }
+            body{
+                padding: 0px;
+            }
+            footer{
+                font-size: small;
+                
+            }
+            nav a:hover{
+                background-color: red;
+                color: white;
+                padding: 3px;
+                text-align: center;
+               
+            }
+           
+    #teachers .Nil{
+        height: 275px;
+        width: 275px;
+        
+    }
+    .heading h1{
+        font-size: small;
+    }
+    #About_Teacher{
+        text-decoration:underline;
+        color:red;
+    }
+ }
+ @media screen and (min-width: 600px){
+ 
+    nav {
+        background-color: #333;
+        color: white;
+        font-size: medium;
+        display: block;
+        padding-left: 1px;
+    }
+    nav a{
+        padding: 20px 30px;
+        display: inline;
+        font-size: small;
+        text-align: center;
+    }
+    .college{
+       height: 400px;
+       width: 400px;
+    }
+    #nirmala{
+        height: 400px;
+        width: 400px;
+        transition-property: all;
+    }
+    .picture{
+       height: 300px;
+       width: 300px;
+    }
+    body{
+        padding: 2px;
+    }
+    footer{
+        font-size: medium;
+        
+    }
+    nav a:hover{
+        text-align: center;
+        padding: 16px 30px;
+    }
+ }
+@media screen and (min-width: 768px){
+    nav {
+        background-color: #333;
+        color: white;
+        font-size: large;
+        display: block;
+       
+    }
+    nav a{
+        padding: 50px 60px;
+        display: inline;
+        font-size: medium;
+        text-align: center;
+    }
+    .college{
+       height: 600px;
+       width: 600px;
+       padding-left: 10px;
+    }
+    #nirmala{
+        height: 600px;
+        width: 600px;
+        transition-property: all;
+    }
+    .picture{
+       height: 600px;
+       width: 600px;
+    }
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    footer{
+        font-size: large;
+        
+    }
+    nav a:hover{
+        text-align: center;
+       padding: 16px 65px;
+       
+    
+    }
+}
+@media screen and (min-width: 1024px){
+    nav {
+        background-color: #333;
+        color: white;
+        font-size: large;
+        display: block;
+       
+    }
+    nav a{
+        padding: 70px 80px;
+        display: inline;
+        font-size: large;
+        text-align: center;
+    }
+    .college{
+       height: 800px;
+       width: 800px;
+       padding-left: 10px;
+    }
+    #nirmala{
+        height: 800px;
+        width: 800px;
+        transition-property: all;
+    }
+    .picture{
+       height: 800px;
+       width: 800px;
+    }
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    footer{
+        font-size: large;
+        
+    }
+    nav a:hover{
+        text-align: center;
+        
+        padding: 70px 80px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+
+    
+    }
+    #teachers .Nil{
+        height: 500px;
+        width: 500px;
+        
+}
+
+
+.registrationForm {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  color: wheat;
+  font-size: larger;
+  text-align: center;
+  background-image:url(image/back.jpg);
+  border-radius: 5%;
+  border: 5px solid black;
+  border-bottom: 5rem;
 
   
+  padding: 15px;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-top: 5rem;
+  height: 500px;
+  width: 400px;
+}
 
+.registrationForm legend{
+    color: #ff0000;
+    font-family: monospace;
+    font-size: 2rem;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    padding-bottom: 15px;
 
-
+}
+.registrationForm p{
+    background-color: purple;
+    color: white;
+    font-family: monospace;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+.registrationForm label{
+    font-family: monospace;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.registrationForm input{
+    width: 30%;
+    padding-right:30px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: medium;
+}
+.registrationForm select option{
+    font-size: medium;
+    padding: 10px;
+    background-color: purple;
+   
+}
+.registrationForm select{
+    width: 30%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: medium;
+}
+.gender{
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: medium;
+    padding: 5px;
+    display: inline;
+}
+.gender input {
+    padding: 50px
+}
+#submit{
+    background-color: green;
+    color: white;
+    font-size: large;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+.registrationForm input[type="text"]{
+    padding: 7px;
+    padding-right:10px;
+}
+#submit:hover{
+    background-color:red;
+    color: black;
+} 
+}
